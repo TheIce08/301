@@ -131,7 +131,7 @@ export default function Home() {
           <div className={styles("titleBig")}>
             Hi👋,
             <br />
-            I'm <div className={`${styles("name")} name`}>Marcus</div>.
+            I'm <div className={`${styles("name")} name`}>Marice</div>.
           </div>
           <div className={`${styles("titleSmall")} title-small`}>
             A student
@@ -140,19 +140,22 @@ export default function Home() {
             <span className={styles("span")}> / </span>
             vexer
           </div>
+          <div className={`${styles("titleSmall")} title-small`}>
+            域名已更新 欢迎访问新域名
+          </div>
         </div>
         <div className={styles("buttons")}>
-          <Button text="Blog" to="https://blog.marcus233.top/" />
-          <Button text="Gtihub" to="https://github.com/MarcusYYDS" primary />
+          <Button text="New Blog" to="https://blog.marice.top/" />
+          <Button text="Gtihub" to="https://github.com/TheIce08" primary />
           <Button
             text="Bilibili"
-            to="https://space.bilibili.com/1024450661"
+            to="https://space.bilibili.com/1466122645"
             primary
           />
         </div>
       </div>
       <footer className={styles("footer")}>
-        Copyright © 2022-2023 Marcus. All rights reserved.
+        Copyright © 2022-2023 Marice. All rights reserved.
         <br />
         <div className={styles("footerAs")}>
         <a
@@ -164,11 +167,11 @@ export default function Home() {
           Theme: Home-web
         </a>
         <a
-          href="https://icp.gov.moe/?keyword=20230221"
+          href="https://icp.gov.moe/?keyword=20234113"
           target="_blank"
           className={styles("footerA")}
           >
-          MoeICP: 20230221
+          MoeICP: 20234113
         </a>
         </div>
       </footer>
